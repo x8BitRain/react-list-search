@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css?family=B612+Mono&display=swap");
+/* a nicer font */
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background-color: #fbfbfb;
+}
+
+h1,
+h2,
+h3,
+p,
+a,
+b {
+  font-family: "B612", mono;
+}
+
+h1 {
+  margin: 20px;
+}
+
+#root {
+  height: 100%;
+}
+
+#searchpage {
+  margin: 20px;
+  width: 80%;
+}
+
+#searchInput {
+  padding: 10px;
+  width: 385px;
+}
